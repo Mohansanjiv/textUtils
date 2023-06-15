@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    /* padding: 20px; */
+    font-family: "Montserrat", sans-serif;
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
+}
+  .container {
+    position: relative;
+    padding: 20px;
+    max-width: 1200px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.clearall {
+    clear: both;
+    height: 1px;
+    width: auto;
+}
+.slider-sec-1{
+    float: left;
+    width: 100%;
+
+}
+.slider-top-text {
+    font-size: 47px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* padding-bottom: 20px; */
+    text-transform: capitalize;
+}
+.slider-top-text-img {
+    width: 93px;
+    display: inline;
+    vertical-align: middle;
+}
+.slider-top-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+.slider-top-list li{
+    border:1px solid #000;
+    border-radius: 30px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.slider-top-list li:hover{
+    border: 1px solid #020483;
+    color: #020483;
+    cursor: pointer;
+    
+}
+.slider-top-list li:first-child {
+    background: #020483;
+    color: white;
+  }
+  .slider-box{
+    float: left;
+    width: 100%;
+  }
+  .slide-box-1 {
+    float: left;
+    width: 100%;
+    background: #57bceb;
+    border-radius: 24px;
+}
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* display: block; */
+    margin: 10px auto;
+    width: 321px;
+    /* border: 1px solid #000; */
+    padding: 13px 10px;
+}
+.btn-left{
+    display: inline-block;
+    vertical-align: middle;
+    color: #0e0b0b46;
+}
+.btn-rgt{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    color: #0e0b0b46;
+}
+.num-div {
+    display: inline-block;
+    vertical-align: bottom;
+    color: #000;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 28px 0 0 0;
+}
+
+.btn-left:hover, .btn-rgt:hover{
+    cursor: pointer;
+    color: #000;
+
+}
+.slider-text {
+    width: 100;
+    font-size: 27px;
+    line-height: 39px;
+    color: #000000d1;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 116px;
+}
+.review-box{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+.review-box img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+.review-box-txt, .review-box-txt-2 {
+    /* float: left; */
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+.review-box-txt span{
+    color: #358c9b;
+    line-height: 30px;
+}
